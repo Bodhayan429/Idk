@@ -1,34 +1,46 @@
-body {
-    background-size: cover;
+
+.heading{
+width: 100%;
+text-align: left;
 }
-.heading {
-    font-size: 25px;
-    width: 100%;
-    margin: 0px;
-    font-family: monospace;
+.heading h3{
+    display: inline;
 }
-#start_btn {
+
+.heading button{
+    float: right;
+    border: 1px solid white;
+}
+
+#start ,#status, #restart{
+font-size: 22px;
+}
+
+.modal-dialog{
+    width: 70%;
+}
+.modal-body{
+    text-align: left;
     font-size: 20px;
-    font-family: sans-serif;
 }
-#number_of_objects, #status{
-    font-size: 18px;
-    font-family: sans-serif;
+h4{
+   background-color: grey;
+   color:white;
+   line-height: 2;
 }
-.copy_right_footer {
+canvas{
+      border:3px solid white;
+      border-radius: 20px;
+      box-shadow:  5px 5px 5px white;
+}
+.copy_right_footer{
     position: fixed;
     color: white;
-    bottom: 0;  
+    bottom: 0px; 
     width: 100%;
     background-color: #ffcc00;
     line-height: 3;
     text-align: center;
     font-family: 'Kirang Haerang', cursive;
-    font-size: 20px;
-}
-canvas {
-    border: 2px ridge black;
-    border-radius: 10px;
-    margin-top: 130px;
-    box-shadow: 7px 7px 7px white;
+    font-size: 20px
 }
